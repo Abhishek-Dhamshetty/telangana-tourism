@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-    origin: "http://localhost:5173", // Adjust as per frontend
+    origin: 'https://telangana-tourism-omega.vercel.app', // Adjust as per frontend
     credentials: true,
 };
 
