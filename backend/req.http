@@ -1,0 +1,25 @@
+POST http://localhost:9000/place-api/places
+Content-Type: application/json
+
+{
+  "name": "Papikondalu",
+  "description": "A scenic hill range along the Godavari River, known for its breathtaking views, boat rides, and lush green surroundings.",
+  "image": "https://www.holidify.com/images/bgImages/PAPI-KONDALU.jpg",
+  "location": "Rajahmundry - Bhadrachalam stretch, Telangana",
+  "latitude": 17.401,
+  "longitude": 81.3265,
+  "reviews": []
+}
+
+
+
+
+
+
+
+
+
+
+###get
+
+GET http://localhost:9000/place-api/all
