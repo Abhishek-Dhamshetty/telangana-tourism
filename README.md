@@ -35,24 +35,24 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
 - WebSockets for instant review and rating updates.
 
 ### Database
-- User, place, and review data stored efficiently in MongoDB or Planetscale.
+- User, place, and review data stored efficiently in **MongoDB Atlas**.
 
 ## Deployment
 
 ### Frontend Hosting
-- Deployed on **Vercel** or **Netlify** for free-tier hosting.
+- Deployed on **Vercel** for free-tier hosting.
 
 ### Backend Hosting
-- Deployed on **Render** or **Railway.app** for free-tier hosting.
+- Deployed on **Render** for free-tier hosting.
 
 ### Database
-- **MongoDB Atlas** (Free Plan) or **Planetscale** (Free Plan) is used for database hosting.
+- **MongoDB Atlas** (Free Plan) is used for database hosting.
 
 ## Setup Instructions
 
 ### Prerequisites
 - Node.js installed on your machine.
-- MongoDB Atlas or Planetscale account for the database.
+- MongoDB Atlas account for the database.
 
 ### Steps to Run Locally
 1. Clone the repository:
@@ -73,4 +73,3 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
    ```
 
 5. Open your browser and visit `https://telangana-tourism-omega.vercel.app/` to access the application.
-
