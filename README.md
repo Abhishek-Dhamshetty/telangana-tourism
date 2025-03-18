@@ -1,11 +1,11 @@
 # Telangana Tourism
-A dynamic travel website featuring famous places in Telangana. The platform includes user authentication, detailed travel information, reviews, and interactive features to enhance the travel experience.
+A dynamic travel website featuring famous places in Telangana. The platform includes user authentication using Clerk, detailed travel information, reviews, and interactive features to enhance the travel experience.
 
 ## Features
 
 ### Frontend
 #### User Authentication
-- Users can register and log in.
+- Users can register and log in using **Clerk Authentication**.
 - Secure authentication with role-based access control.
 
 #### Travel Dashboard
@@ -25,7 +25,7 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
 
 ### Backend
 #### Authentication API
-- Secure user login and registration using JWT.
+- Secure authentication handled by **Clerk Authentication**.
 
 #### Travel Management API
 - CRUD operations for adding, updating, and deleting tourist spot details.
@@ -53,6 +53,7 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
 ### Prerequisites
 - Node.js installed on your machine.
 - MongoDB Atlas account for the database.
+- Clerk account for authentication setup.
 
 ### Steps to Run Locally
 1. Clone the repository:
@@ -65,7 +66,7 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
    npm install
    ```
 3. Set up environment variables:
-   - Create a `.env` file and configure database and authentication settings.
+   - Create a `.env` file and configure database and Clerk authentication settings.
 
 4. Start the development server:
    ```sh
@@ -73,3 +74,4 @@ A dynamic travel website featuring famous places in Telangana. The platform incl
    ```
 
 5. Open your browser and visit `https://telangana-tourism-omega.vercel.app/` to access the application.
+
